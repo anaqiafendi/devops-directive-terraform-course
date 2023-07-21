@@ -5,7 +5,7 @@ set -euo pipefail
 cd ../../examples/hello-world
 
 # Create the resources
-terraform init
+terraform init -migrate-state
 terraform apply -auto-approve
 
 # Wait while the instance boots up

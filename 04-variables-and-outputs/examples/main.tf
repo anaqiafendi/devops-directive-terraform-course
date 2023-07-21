@@ -20,6 +20,7 @@ provider "aws" {
 }
 
 locals {
+  # Local variables
   extra_tag = "extra-tag"
 }
 
