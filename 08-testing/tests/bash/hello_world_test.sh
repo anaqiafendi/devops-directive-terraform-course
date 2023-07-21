@@ -19,3 +19,6 @@ xargs -I {} curl http://{}:8080 -m 10
 
 # If request succeeds, destroy the resources
 terraform destroy -auto-approve
+
+# Just another thing to push
+# Another one

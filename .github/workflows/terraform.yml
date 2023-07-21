@@ -5,6 +5,7 @@ on:
   # push:
   #   branches:
   #     - main
+  # Just something to push lol
   release:
     types: [published]
   pull_request:
